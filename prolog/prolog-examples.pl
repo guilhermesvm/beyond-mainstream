@@ -25,7 +25,7 @@ location(clara, City, ST). % marau, rs
 location(clara, _, ST). % rs
 location(Name, _, rs). % clara, joaquim, anthony
 location(P, _, sc); location(P, _, pr). % ;OR -> mark, john
-location(P, _, sc), location(P, _, pr). % ,AND -> flase
+location(P, _, sc), location(P, _, pr). % ,AND -> false
 
 gaucho(clara). % true
 gaucho(N). % clara, joaquim, anthony
