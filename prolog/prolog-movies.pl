@@ -27,7 +27,7 @@ director(M, D), actress(M, scarlett_johansson, _).
 actor(M, A, _), director(M, A).
 
 % g. Find an actor or actress who has also directed a movie.
-(actor(M, A, _); actress(M, A, _)), director(M1, A).
+actor(M, A, _); actress(M, A, _)), director(M1, A).
 
 % h. Find the movies in which John Goodman (john_goodman) and Jeff Bridges (jeff_bridges) were co-stars.
 actor(M, john_goodman, _), actor(M, jeff_bridges, _).
