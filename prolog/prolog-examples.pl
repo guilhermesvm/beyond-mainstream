@@ -16,7 +16,7 @@ location(john, curitiba, pr).
 gaucho(P) :- location(P, _, rs).
 under_age(P) :- age(P, I), I<18.
 
-% query
+% queries
 age(mark, 17). % true
 age(anthony, Age). % 35
 age(Name, 35). % anthony, john
@@ -31,10 +31,10 @@ gaucho(clara). % true
 gaucho(N). % clara, joaquim, anthony
 
 age(P, 35), location(P, _, rs). % anthony, false
-age(P, I), I<18 % P=mark, I=17
-age(P, _I), _I<18 % mark
+age(P, I), I<18. % P=mark, I=17
+age(P, _I), _I<18. % mark
 
-under_age(P) % mark
-under_age(john)
+under_age(P). % mark
+under_age(john). % false
 
 

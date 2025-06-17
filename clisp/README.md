@@ -8,5 +8,5 @@ sudo apt update
 sudo apt install clisp
 ```
 ```
-    clisp program.cl
+clisp program.cl
 ```
